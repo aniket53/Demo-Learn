@@ -175,7 +175,7 @@
                         <div class="left_ex_title">
                             <h2>get in <span>touch</span></h2>
                         </div>
-                        <form class="contact_us_form row m0" action="https://designarc.biz/demos/hilltown/theme/contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <form class="contact_us_form row m0" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
                             <div class="form-group col-md-12">
                                 <input type="text" class="form-control" id="name" name="name" placeholder="Name">
                             </div>
@@ -335,19 +335,7 @@
         </footer>
         <!--================End Footer Area =================-->
         
-        <!--================Search Box Area =================-->
-        <div class="search_area zoom-anim-dialog mfp-hide" id="test-search">
-            <div class="search_box_inner">
-                <h3>Search</h3>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search for...">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button"><i class="icon icon-Search"></i></button>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <!--================End Search Box Area =================-->
+    
         
         <!--================Contact Success and Error message Area =================-->
         <div id="success" class="modal modal-message fade" role="dialog">
@@ -363,6 +351,34 @@
         </div>
 
         <!-- Modals error -->
+
+        <!-- Error Message Modal -->
+<div id="error" class="modal modal-message fade" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></span>
+                <h2 class="modal-title">Error</h2>
+                <p class="modal-subtitle">There was an error processing your request. Please try again later.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            <!--================Search Box Area =================-->
+            <div class="search_area zoom-anim-dialog mfp-hide" id="test-search">
+                <div class="search_box_inner">
+                    <h3>Search</h3>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Search for...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button"><i class="icon icon-Search"></i></button>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <!--================End Search Box Area =================-->
 
         <div id="error" class="modal modal-message fade" role="dialog">
             <div class="modal-dialog">
